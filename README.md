@@ -3,6 +3,13 @@
 Photo application of our beloved street where learning, kindness, and fun can come together as one 😅 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Dependencies
+* [date-fns](https://date-fns.org/)
+* [firebase](https://firebase.google.com/?hl=es-419&gclid=CjwKCAjwtJ2FBhAuEiwAIKu19uttYFHQFj-M2T1RouwBF9jj68u-nNcf9K_HDlLPWEvvrezlxeJoMxoCFqcQAvD_BwE&gclsrc=aw.ds)
+* [react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton)
+* [SASS](https://sass-lang.com/)
+* [eslint](https://eslint.org/docs/user-guide/getting-started)
+
 ## Available Scripts
 
 * `npm start` runs app dev mode - open [http://localhost:3000](http://localhost:3000)
