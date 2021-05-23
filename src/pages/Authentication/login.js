@@ -1,4 +1,4 @@
-import './login.scss'
+import './auth.scss'
 import { useContext, useEffect, useState } from 'react'
 import { Link, useHistory } from 'react-router-dom'
 import { FirebaseContext } from '../../context/firebase'
@@ -33,10 +33,10 @@ export default function Login() {
   }, [])
 
   return (
-    <section className="login-section">
-      <h1 className="login-title">SesameGram - Login:</h1>
+    <section className="auth-section">
+      <h1 className="auth-title">SesameGram - Login:</h1>
       { error && <p className="error-message" role="alert">{ error }</p> }
-      <form className="login-form" onSubmit={ handleLogin } method="POST">
+      <form className="auth-form" onSubmit={ handleLogin } method="POST">
         <input
           type="email" 
           placeholder="Email address" 
@@ -57,10 +57,10 @@ export default function Login() {
           Login
         </button>
       </form>
-      <div className="signup-redirect">
+      <div className="redirect-container">
         <p>Don't have an account yet?</p>
-        <Link className="signup-link" to={ Routes.SIGNUP }>
-          Sign up now!
+        <Link className="redirect-link" to={ Routes.SIGNUP }>
+          Sign up now
         </Link>
       </div>
     </section>

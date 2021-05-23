@@ -1,4 +1,4 @@
-import './signup.scss'
+import './auth.scss'
 import { useState, useContext, useEffect } from 'react'
 import { Link, useHistory } from 'react-router-dom'
 import { doesUsernameExist } from '../../services/firebase'
@@ -57,10 +57,10 @@ export default function SignUp() {
   useEffect(() => { document.title = 'Sign Up - Instagram' }, [])
 
   return (
-    <section className="signup-section">
-      <h1 className="signup-title">SesameGram - Signup:</h1>
+    <section className="auth-section">
+      <h1 className="auth-title">SesameGram - Signup:</h1>
       { error && <p className="error-message" role="alert">{ error }</p> }
-      <form className="signup-form" onSubmit={ handleSignUp } method="POST">
+      <form className="auth-form" onSubmit={ handleSignUp } method="POST">
         <input
           type="text" 
           placeholder="Username" 
@@ -97,10 +97,10 @@ export default function SignUp() {
           Sign up
         </button>
       </form>
-      <div className="login-redirect">
+      <div className="redirect-container">
         <p>Already have an account?</p>
-        <Link className="login-link" to={ Routes.LOGIN }>
-          Login now!
+        <Link className="redirect-link" to={ Routes.LOGIN }>
+          Login now
         </Link>
       </div>
     </section>

@@ -2,8 +2,8 @@ import { lazy, Suspense } from 'react'
 import React, { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { Routes } from './constants/routes'
 
-const Login = lazy(() => import('./pages/Login/login'))
-const Signup = lazy(() => import('./pages/Signup/signup'))
+const Login = lazy(() => import('./pages/Authentication/login'))
+const Signup = lazy(() => import('./pages/Authentication/signup'))
 
 function App() {
   return (
