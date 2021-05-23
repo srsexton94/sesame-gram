@@ -2,9 +2,12 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  height: 100vh;
-  margin: auto;
-  max-width: 30rem;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  margin: 25vh auto;
+  padding: 1rem;
+  max-height: 60vh;
+  max-width: 20rem;
 
   .login-title {
     text-align: center;
@@ -15,7 +18,8 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    border: 0;
+    width: 50%;
+    margin: auto;
 
     input {
       border: 1px solid lightgrey;
@@ -30,6 +34,17 @@
       border-radius: 5px;
       padding: .75rem;
       margin: .5rem;
+    }
+  }
+
+  .signup-redirect {
+    text-align: center;
+    margin-top: 1rem;
+    color: darkgrey;
+    font-size: .75rem;
+
+    p, .signup-link {
+      margin: 0;
     }
   }
 }
