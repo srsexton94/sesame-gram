@@ -1,7 +1,7 @@
 export function seedDatabase(firebase) {
   const users = [
     {
-      userId: '<firebase-auth-id>',
+      userId: 'n0BQ30V5P4afedf3OdHYRlOngeO2',
       username: 'izzyWazHere',
       fullName: 'Sam Sexton',
       emailAddress: 'srsexton94@gmail.com',
@@ -15,7 +15,7 @@ export function seedDatabase(firebase) {
       fullName: 'Elmo DeSesame',
       emailAddress: 'happydance@gmail.com',
       following: [],
-      followers: ['<firebase-auth-id>'],
+      followers: ['n0BQ30V5P4afedf3OdHYRlOngeO2'],
       dateCreated: Date.now()
     },
     {
@@ -24,7 +24,7 @@ export function seedDatabase(firebase) {
       fullName: 'Abby Cadabby',
       emailAddress: 'acadabby@yahoo.com',
       following: [],
-      followers: ['<firebase-auth-id>'],
+      followers: ['n0BQ30V5P4afedf3OdHYRlOngeO2'],
       dateCreated: Date.now()
     },
     {
@@ -33,7 +33,7 @@ export function seedDatabase(firebase) {
       fullName: 'Big Bird',
       emailAddress: 'bigb@gmail.com',
       following: [],
-      followers: ['<firebase-auth-id>'],
+      followers: ['n0BQ30V5P4afedf3OdHYRlOngeO2'],
       dateCreated: Date.now()
     }
   ]
