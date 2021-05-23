@@ -1,0 +1,2 @@
+(this["webpackJsonpsesame-gram"]=this["webpackJsonpsesame-gram"]||[]).push([[0],{9:function(e,r,s){"use strict";s.r(r);s(1);var t=s(3),n=s.n(t),a=s(0);var c=function(){return Object(a.jsx)("h1",{children:"Hello World"})};n.a.render(Object(a.jsx)(c,{}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.9d234c0d.chunk.js.map

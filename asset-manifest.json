@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/sesame-gram/static/js/main.9d234c0d.chunk.js",
+    "main.js.map": "/sesame-gram/static/js/main.9d234c0d.chunk.js.map",
+    "runtime-main.js": "/sesame-gram/static/js/runtime-main.465de880.js",
+    "runtime-main.js.map": "/sesame-gram/static/js/runtime-main.465de880.js.map",
+    "static/js/2.50a3d935.chunk.js": "/sesame-gram/static/js/2.50a3d935.chunk.js",
+    "static/js/2.50a3d935.chunk.js.map": "/sesame-gram/static/js/2.50a3d935.chunk.js.map",
+    "index.html": "/sesame-gram/index.html",
+    "static/js/2.50a3d935.chunk.js.LICENSE.txt": "/sesame-gram/static/js/2.50a3d935.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.465de880.js",
+    "static/js/2.50a3d935.chunk.js",
+    "static/js/main.9d234c0d.chunk.js"
+  ]
+}
