@@ -9,6 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton)
 * [SASS](https://sass-lang.com/)
 * [eslint](https://eslint.org/docs/user-guide/getting-started)
+* [react-gh-pages](https://github.com/gitname/react-gh-pages)
 
 ## Available Scripts
 
@@ -16,8 +17,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * `npm test` test runner w/interactive watch mode - see [running tests](https://facebook.github.io/create-react-app/docs/running-tests)
 * `npm run build` builds for prod to `build` folder, bundles & optimizes, minified - see [deployment](https://facebook.github.io/create-react-app/docs/deployment)
 * `npm run eject` (WARNING: Irreversible) removes the single build dependency from your project.
+* `npm run deploy` deploys the app through github pages to [https://srsexton94.github.io/sesame-gram/](https://srsexton94.github.io/sesame-gram/)
 
-## Learn More
+## React Suggested Docs
 * [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 * [React documentation](https://reactjs.org/).
 * [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
