@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [SASS](https://sass-lang.com/)
 * [eslint](https://eslint.org/docs/user-guide/getting-started)
 * [react-gh-pages](https://github.com/gitname/react-gh-pages)
+* [react-router-dom](https://www.npmjs.com/package/react-router-dom)
 
 ## Available Scripts
 
