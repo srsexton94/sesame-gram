@@ -14,6 +14,14 @@
     margin: .5rem;
   }
 
+  .error-message {
+    font-size: .75rem;
+    color: darkred;
+    text-align: center;
+    width: 75%;
+    margin: 1rem auto;
+  }
+
   .signin-form {
     display: flex;
     flex-flow: column nowrap;

@@ -35,7 +35,7 @@ export default function Login() {
   return (
     <section className="login-section">
       <h1 className="login-title">SesameGram - Login:</h1>
-      { error && <p className="error-message">{ error }</p> }
+      { error && <p className="error-message" role="alert">{ error }</p> }
       <form className="signin-form" onSubmit={ handleLogin } method="POST">
         <input
           type="email" 
