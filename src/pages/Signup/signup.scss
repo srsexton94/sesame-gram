@@ -1,4 +1,4 @@
-.login-section {
+.signup-section {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -9,7 +9,7 @@
   max-height: 60vh;
   max-width: 20rem;
 
-  .login-title {
+  .signup-title {
     text-align: center;
     margin: .5rem;
   }
@@ -22,7 +22,7 @@
     margin: 1rem auto;
   }
 
-  .login-form {
+  .signup-form {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -45,13 +45,13 @@
     }
   }
 
-  .signup-redirect {
+  .login-redirect {
     text-align: center;
     margin-top: 1rem;
     color: darkgrey;
     font-size: .75rem;
 
-    p, .signup-link {
+    p, .login-link {
       margin: 0;
     }
   }
